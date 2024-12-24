@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { navbarConfig } from '../navbar.config';
 import { usePathname } from 'next/navigation';
+import { navbarConfig } from '../navbar.config';
 
-const Menu = () => {
+const NavbarMenu = () => {
   const pathname = usePathname();
 
   return (
@@ -34,4 +34,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default NavbarMenu;
