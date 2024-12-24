@@ -37,8 +37,10 @@ export default function RootLayout(props: Readonly<IProps>) {
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-          {children}
+          <div className="flex h-screen flex-col">
+            <Navbar />
+            <div className="flex-1 overflow-auto">{children}</div>
+          </div>
         </ThemeProvider>
       </body>
     </html>

@@ -20,8 +20,10 @@ export const games: IGame[] = [
     awayTeamScore: 1,
     date: '2024-12-22T20:45:00Z',
     competition: 'Premier League',
-    homeTeamLogo: 'https://example.com/logos/man_united.png',
-    awayTeamLogo: 'https://example.com/logos/liverpool.png',
+    homeTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/640px-Manchester_United_FC_crest.svg.png',
+    awayTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png',
   },
   {
     homeTeam: 'Paris Saint-Germain',
@@ -30,8 +32,10 @@ export const games: IGame[] = [
     awayTeamScore: 2,
     date: '2024-12-23T21:00:00Z',
     competition: 'Champions League',
-    homeTeamLogo: 'https://example.com/logos/psg.png',
-    awayTeamLogo: 'https://example.com/logos/bayern_munich.png',
+    homeTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png',
+    awayTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/190px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png',
   },
   {
     homeTeam: 'Juventus',
@@ -40,8 +44,10 @@ export const games: IGame[] = [
     awayTeamScore: 1,
     date: '2024-12-23T19:30:00Z',
     competition: 'Serie A',
-    homeTeamLogo: 'https://example.com/logos/juventus.png',
-    awayTeamLogo: 'https://example.com/logos/ac_milan.png',
+    homeTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/commons/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg',
+    awayTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/800px-Logo_of_AC_Milan.svg.png',
   },
   {
     homeTeam: 'Chelsea',
@@ -50,8 +56,10 @@ export const games: IGame[] = [
     awayTeamScore: 2,
     date: '2024-12-24T18:00:00Z',
     competition: 'Premier League',
-    homeTeamLogo: 'https://example.com/logos/chelsea.png',
-    awayTeamLogo: 'https://example.com/logos/arsenal.png',
+    homeTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png',
+    awayTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png',
   },
   {
     homeTeam: 'Atletico Madrid',
@@ -60,47 +68,9 @@ export const games: IGame[] = [
     awayTeamScore: 0,
     date: '2024-12-24T21:00:00Z',
     competition: 'La Liga',
-    homeTeamLogo: 'https://example.com/logos/atletico_madrid.png',
-    awayTeamLogo: 'https://example.com/logos/sevilla.png',
-  },
-  {
-    homeTeam: 'Borussia Dortmund',
-    awayTeam: 'RB Leipzig',
-    homeTeamScore: 2,
-    awayTeamScore: 3,
-    date: '2024-12-25T16:00:00Z',
-    competition: 'Bundesliga',
-    homeTeamLogo: 'https://example.com/logos/dortmund.png',
-    awayTeamLogo: 'https://example.com/logos/rbLeipzig.png',
-  },
-  {
-    homeTeam: 'Tottenham Hotspur',
-    awayTeam: 'Manchester City',
-    homeTeamScore: 0,
-    awayTeamScore: 2,
-    date: '2024-12-25T18:30:00Z',
-    competition: 'Premier League',
-    homeTeamLogo: 'https://example.com/logos/tottenham.png',
-    awayTeamLogo: 'https://example.com/logos/man_city.png',
-  },
-  {
-    homeTeam: 'Inter Milan',
-    awayTeam: 'AS Roma',
-    homeTeamScore: 1,
-    awayTeamScore: 0,
-    date: '2024-12-26T20:00:00Z',
-    competition: 'Serie A',
-    homeTeamLogo: 'https://example.com/logos/inter_milan.png',
-    awayTeamLogo: 'https://example.com/logos/as_roma.png',
-  },
-  {
-    homeTeam: 'AC Milan',
-    awayTeam: 'Napoli',
-    homeTeamScore: 2,
-    awayTeamScore: 2,
-    date: '2024-12-26T21:45:00Z',
-    competition: 'Serie A',
-    homeTeamLogo: 'https://example.com/logos/ac_milan.png',
-    awayTeamLogo: 'https://example.com/logos/napoli.png',
+    homeTeamLogo:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/1200px-Atletico_Madrid_Logo_2024.svg.png',
+    awayTeamLogo:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtsyOoOVd_LIYyMqoE0kIgrOKR9kwWK4MmA&s',
   },
 ];

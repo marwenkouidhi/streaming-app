@@ -5,10 +5,12 @@ import NavbarLogo from './components/navbar-logo';
 
 const Navbar = async () => {
   return (
-    <nav className="flex justify-between overflow-hidden border-y px-5">
-      <NavbarLogo />
-      <NavbarMenu />
-      <NavbarUtilities />
+    <nav className="overflow-hidden border-y px-5">
+      <div className="mx-auto flex max-w-screen-2xl justify-between">
+        <NavbarLogo />
+        <NavbarMenu />
+        <NavbarUtilities />
+      </div>
     </nav>
   );
 };
